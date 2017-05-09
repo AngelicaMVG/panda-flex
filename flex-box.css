@@ -1,0 +1,152 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: #282627;
+  overflow-x: hidden;
+}
+
+.btn , .nav , .foot{
+  font-family: Love Ya Like a Sister;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  background: #fff;
+  font-size: 1.5em;
+  padding: 3%;
+  color: #000;
+}
+
+.contenedor-menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-bar {
+  display: none;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  .nav{
+    display: none;
+    position: fixed;
+    margin: 0;
+    height: 70%;
+    width: 90%;
+  }
+
+  li {
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
+    border-bottom: 1px solid #000;
+    width: 100%;
+  }
+
+  .contenedor-menu {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+   .menu-bar {
+     font-size: 2em;
+     font-family: Love Ya Like a Sister;
+     display: block;
+     border-bottom: 2px solid #000;
+   }
+
+ .btn-menu {
+     display: block;
+     padding: 20px;
+     background: #fff;
+     color: #000;
+     font-weight: bold;
+     text-decoration: none;
+   }
+
+  a>i {
+    float: right;
+  }
+}
+
+.container {
+  align-items: center;
+}
+
+#imagenes {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+img {
+  width: 250px;
+  border: 2px solid #fff;
+}
+
+
+
+.cerrar {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.agrandar:hover {
+  transform: scale(1.2) translate(2px);
+  transition: 2.2s;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  font-size: 1.3em;
+  color: #fff;
+  background: #282627;
+  border: 2px solid #fff;
+  border-radius: 20%;
+  padding: 10px;
+  outline: none;
+}
+
+.btn:hover , .cerrar , .menu{
+  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat865.cur), progress !important;
+}
+
+#textos {
+  color: #fff;
+  display: flex;
+}
+
+#columna1, #columna2{
+  font-size: 1.5em;
+  width: 50%;
+  margin: 7%;
+  line-height: 1.5;
+  font-family: Josefin Slab;
+}
+
+.foot {
+  background: #fff;
+  color: #000;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1%;
+}
