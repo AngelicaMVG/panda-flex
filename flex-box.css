@@ -37,18 +37,16 @@ body{
 
 }
 
-
 @media screen and (max-width: 800px) {
   .nav{
     display: none;
     position: fixed;
     margin: 0;
-    height: 70%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
   }
 
   li {
-    text-align: center;
     margin-top: 10%;
     padding: 2%;
     border-bottom: 1px solid #000;
@@ -87,23 +85,26 @@ body{
 
 #imagenes {
   display: flex;
-  justify-content: space-around;
-  padding: 5%;
+  justify-content: space-between;
+  padding: 2%;
 }
 
 img {
-  width: 250px;
+  width: 100%;
   border: 2px solid #fff;
 }
 
+.agrandar {
+  margin: 2%;
+}
 
 
 .cerrar {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 1%;
+  top: 1%;
   color: #fff;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .agrandar:hover {
